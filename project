@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
 
+    <h1>Welcome to Our Website</h1>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <h2>This is the Home Page</h2>
+
+    <!-- Image -->
+    <img src="image1.jpg" width="300" alt="Sample Image">
+
+    <p>Visit Google:</p>
+    <!-- External Link -->
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+
+    <h3>Sample Video</h3>
+    <video width="320" height="240" controls>
+        <source src="video/trash miami hotlap.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>
