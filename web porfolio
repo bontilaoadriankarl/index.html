@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css"
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!-- Header -->
+     <head>
+        <p> I am an Information Technology student in CPC</p>
+     </head>
+
+     <!-- Navigation -->
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- About -->
+       <section id="about">
+        <h2>About Me:</h2>
+        <p>
+            I am a person who love to work as a team
+            I enjoy exploring to enhance my skills
+        </p>
+       </section>
+
+       <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Experienced in HTML</li>
+                <li>Experienced in CSS</li>
+                <li>Experienced in C#</li>
+                <li>Experienced in C Language</li>
+                <li>Multimedia Artist
+                    sotfware used:
+                    Adobe Illustrator
+                    Alight Motion
+                    Canva
+                    Capcut
+                </li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+         <section id="projects">
+            <h2>This is my Projects</h2>
+            <a href="https://webteamproject-ufto.vercel.app/index.html?authuser=0">Project 1</a></p>
+            <a href="https://bontilaoposterbsit1a.netlify.app/?authuser=0">Project 2</a></p>
+            <a href="https://grade-pied.vercel.app/?authuser=0">Project 3</a></p>
+         </section>
+
+         <!-- Contact -->
+          <section id="contact">
+            <h2>Contact Me:</h2>
+
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                 <input type="text" placeholder="Your Email" required>
+                 <textarea rows="5" placeholder="Your Message"> </textarea>
+                 <input type="Submit" value="Send Message">
+
+            </form>
+          </section>
+
+          <!-- Footer -->
+           <footer>
+            <p>@ My Portfolio | All Wights Reserved</p>
+           </footer>
+    
+</body>
+</html>
