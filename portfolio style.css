@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navigation */
+nav {
+    background: #2c3e50;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #18bc9c;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #18bc9c;
+    padding-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="Submit"] {
+    background: #2c3e50;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="Submit"]:hover {
+    background: #18bc9c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
